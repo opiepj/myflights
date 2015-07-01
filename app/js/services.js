@@ -4,8 +4,8 @@ var myflightServices = angular.module('myflightServices', ['ngResource']);
 
 myflightServices.factory('Database', ['$resource',
   function ($resource) {
-    return $resource('fixtures/:flightId.json', {}, {
-      query: {method: 'GET', params: {flightId: 'flights'}, isArray: true}
+    return $resource('fixtures/flights.json', {}, {
+      query: {method: 'GET', isArray: true}
     });
   }]);
 
