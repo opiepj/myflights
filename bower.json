@@ -1,0 +1,17 @@
+{
+  "name": "myflights",
+  "version": "0.0.0",
+  "homepage": "https://github.com/opiepj/myflights",
+  "authors": [
+    "Patrick Opie <opiepj@Plu.edu>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-mocks": "1.4.x",
+    "bootstrap": "~3.1.1",
+    "angular-route": "1.4.x",
+    "angular-resource": "1.4.x"
+  }
+}
