@@ -16,7 +16,7 @@
 
       <ul class="flights">
         <li ng-repeat="flight in flights | filter:query | orderBy:orderProp" class="thumbnail flight-listing">
-          <a href="#/flights/{{flight.number}}" class="thumb"><img ng-rc="{{fight.imageUrl}}"></a>
+          <a href="#/flights/{{flight.number}}" class="thumb"><img ng-rc="/img/{{flight.airline.name}}.jpg" height="300" width="300"></a>
           <a href="#/flights/{{flight.number}}">Flight {{flight.number}} {{flight.origin}} To {{flight.destination}}</a>
           <p>INFORMATION</p>
         </li>
