@@ -2,6 +2,7 @@
 
 var myflightApp = angular.module('myflightApp', [
   'ngRoute',
+  'ngLodash',
   'myflightControllers',
   'myflightServices'
 ]);
@@ -18,6 +19,6 @@ myflightApp.config(['$routeProvider',
         controller: 'FlightDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/flights'
+        redirectTo: '/search'
       });
   }]);

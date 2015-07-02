@@ -1,0 +1,212 @@
+{
+  "ATL": {
+	"code": "ATL",
+	"name": "Hartsfield Jackson Atlanta International Airport",
+	"city": "Atlanta",
+	"destinations": [
+	  {"code": "LAX", "distance": 1944 },
+	  {"code": "JFK", "distance": 760 },
+	  {"code": "IAH", "distance": 687 }
+	]
+  },
+    "MTY": {
+	"code": "MTY",
+	"name": "Aereopuerto Internacional Mariano Escobedo",
+	"city": "Monterrey",
+	"destinations": [
+	  {"code": "ATL", "distance": 1942 },
+	  {"code": "ORD", "distance": 1741 },
+	  {"code": "DFW", "distance": 1233 },
+	  {"code": "DEN", "distance": 861 },
+	  {"code": "JFK", "distance": 2470 },
+	  {"code": "SFO", "distance": 338 },
+	  {"code": "LAS", "distance": 236 },
+	  {"code": "PHX", "distance": 370 },
+	  {"code": "IAH", "distance": 1376 },
+	  {"code": "PDX", "distance": 835 },
+	  {"code": "STL", "distance": 1589 },
+	  {"code": "MCI", "distance": 1361 },
+	  {"code": "LAX", "distance": 1794 },
+	  {"code": "MKE", "distance": 1753 }
+	]
+  },
+    "TAC": {
+	"code": "TAC",
+	"name": "International Seattle-Tacoma Airport",
+	"city": "Seattle-Tacoma",
+	"destinations": [
+	  {"code": "ATL", "distance": 1942 },
+	  {"code": "ORD", "distance": 1741 },
+	  {"code": "DFW", "distance": 1233 },
+	  {"code": "DEN", "distance": 861 },
+	  {"code": "JFK", "distance": 2470 },
+	  {"code": "SFO", "distance": 338 },
+	  {"code": "LAS", "distance": 236 },
+	  {"code": "PHX", "distance": 370 },
+	  {"code": "IAH", "distance": 1376 },
+	  {"code": "PDX", "distance": 835 },
+	  {"code": "STL", "distance": 1589 },
+	  {"code": "MCI", "distance": 1361 },
+	  {"code": "LAX", "distance": 370 },
+	  {"code": "MKE", "distance": 1753 }
+	]  
+  },    
+  "ORD": {
+	"code": "ORD",
+	"name": "O'Hare International Airport",
+	"city": "Chicago",
+	"destinations": [
+	  {"code": "LAX", "distance": 1741 },
+	  {"code": "JFK", "distance": 738 },
+	  {"code": "IAH", "distance": 926 }
+	]
+  },
+  "LAX": {
+	"code": "LAX",
+	"name": "Los Angeles International Airport",
+	"city": "Los Angeles",
+	"destinations": [
+	  {"code": "ATL", "distance": 1942 },
+	  {"code": "ORD", "distance": 1741 },
+	  {"code": "DFW", "distance": 1233 },
+	  {"code": "DEN", "distance": 861 },
+	  {"code": "JFK", "distance": 2470 },
+	  {"code": "SFO", "distance": 338 },
+	  {"code": "LAS", "distance": 236 },
+	  {"code": "PHX", "distance": 370 },
+	  {"code": "IAH", "distance": 1376 },
+	  {"code": "PDX", "distance": 835 },
+	  {"code": "STL", "distance": 1589 },
+	  {"code": "MCI", "distance": 1361 },
+	  {"code": "BNA", "distance": 1794 },
+	  {"code": "MTY", "distance": 1794 },
+	  {"code": "TAC", "distance": 1794 },
+	  {"code": "MKE", "distance": 1753 }
+	]
+  },
+  "DFW": {
+	"code": "DFW",
+	"name": "Dallas/Fort Worth International Airport",
+	"city": "Dallas/Fort Worth",
+	"destinations": [
+	  {"code": "DEN", "distance": 641 },
+	  {"code": "JFK", "distance": 1389 },
+	  {"code": "SFO", "distance": 1463 },
+	  {"code": "MCI", "distance": 461 },
+	  {"code": "LAX", "distance": 1233 },
+	  {"code": "MTY", "distance": 570 }
+	]
+  },
+  "DEN": {
+	"code": "DEN",
+	"name": "Denver International Airport",
+	"city": "Denver",
+	"destinations": [
+	  {"code": "DFW", "distance": 641 },
+	  {"code": "IAH", "distance": 861 },
+	  {"code": "LAX", "distance": 861 }
+	]
+  },
+  "JFK": {
+	"code": "JFK",
+	"name": "John F. Kennedy International Airport",
+	"city": "New York",
+	"destinations": [
+	  {"code": "LAX", "distance": 2470 },
+	  {"code": "ORD", "distance": 738 },
+	  {"code": "DFW", "distance": 1389 },
+	  {"code": "LAS", "distance": 2243 },
+	  {"code": "PHX", "distance": 2149 },
+	  {"code": "IAH", "distance": 1416 },
+	  {"code": "ATL", "distance": 760 },
+	  {"code": "BNA", "distance": 763 }
+	]
+  },
+  "SFO": {
+	"code": "SFO",
+	"name": "San Francisco International Airport",
+	"city": "San Francisco",
+	"destinations": [
+	  {"code": "LAX", "distance": 338 },
+	  {"code": "DFW", "distance": 1463 },
+	  {"code": "PHX", "distance": 651 },
+	  {"code": "PDX", "distance": 551 }
+	]
+  },
+  "LAS": {
+	"code": "LAS",
+	"name": "McCarran International Airport",
+	"city": "Las Vegas",
+	"destinations": [
+	  {"code": "LAX", "distance": 236 },
+	  {"code": "JFK", "distance": 2243 }
+	]
+  },
+  "PHX": {
+	"code": "PHX",
+	"name": "Phoenix Sky Harbor International Airport",
+	"city": "Phoenix",
+	"destinations": [
+	  {"code": "LAX", "distance": 370 },
+	  {"code": "SFO", "distance": 651 },
+	  {"code": "JFK", "distance": 2149 }
+	]
+  },
+  "IAH": {
+	"code": "IAH",
+	"name": "George Bush Intercontinental Airport",
+	"city": "Houston",
+	"destinations": [
+	  {"code": "LAX", "distance": 1376 },
+	  {"code": "DEN", "distance": 861 },
+	  {"code": "JFK", "distance": 1416 },
+	  {"code": "ORD", "distance": 926 },
+	  {"code": "ATL", "distance": 687 }
+	]
+  },
+  "PDX": {
+	"code": "PDX",
+	"name": "Portland International Airport",
+	"city": "Portland",
+	"destinations": [
+	  {"code": "LAX", "distance": 835 },
+	  {"code": "SFO", "distance": 551 }
+	]
+  },
+  "STL": {
+	"code": "STL",
+	"name": "Lambert-St. Louis International Airport",
+	"city": "St. Louis",
+	"destinations": [
+	  {"code": "LAX", "distance": 1589 },
+	  {"code": "MKE", "distance": 318 }
+	]
+  },
+  "MCI": {
+	"code": "MCI",
+	"name": "Kansas City International Airport",
+	"city": "Kansas City",
+	"destinations": [
+	  {"code": "LAX", "distance": 1361 },
+	  {"code": "DFW", "distance": 461 }
+	]
+  },
+  "BNA": {
+	"code": "BNA",
+	"name": "Nashville International Airport",
+	"city": "Nashville",
+	"destinations": [
+	  {"code": "LAX", "distance": 1794 },
+	  {"code": "JFK", "distance": 763 }
+	]
+  },
+  "MKE": {
+	"code": "MKE",
+	"name": "General Mitchell International Airport",
+	"city": "Milwaukee",
+	"destinations": [
+	  {"code": "LAX", "distance": 1753 },
+	  {"code": "STL", "distance": 318 }
+	]
+  }
+}

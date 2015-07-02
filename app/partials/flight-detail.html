@@ -1,9 +1,58 @@
-<<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="header-wrapper">
+  <div class="title">
+    Review Trip Itinary
+  </div>
+  <div class="fare-detals">
+    <ul class="fare-details list">
+      <li> Price: {{ flight.price}} </li>
+      <li> Tax: {{ flight.price * tax + fee}} </li>
+      <li> Total: {{flight.price + fee + flight.price * tax}}</li>
+    </ul>
+  <div class="match-field">
+    Did this match your search?
+    <a type="button" class="customButton Yes" >Yes</a>
+    <a type="button" class="customButton No" >No</a>
+  </div>
+</div>
+<div class="flight-details">
+  <p class="flight-details-title">Flight Details Title {{time.data}} | {{airport.city}},({{airport.code}}) to </p>
+  <ul ng-repeat="flight in flightRoutes" class="details arrive">
+    <li>
+      <span>Depart:</span>
+      <dl>
+        <dt>Time</dt>
+        <dd>{{flight.time.depart}}</dd>
+        <dt>Date</dt>
+        <dd>{{flight.time.date}}</dd>
+        <dt>Location</dt>
+        <dd>{{TODO}}</dd>
+      </dl>
+    </li>
+    <li>
+      <span>Arrive:</span>
+      <dl>
+        <dt>Time</dt>
+        <dd>{{flight.time.depart}}</dd>
+        <dt>Date</dt>
+        <dd>{{flight.time.date}}</dd>
+        <dt>Location</dt>
+        <dd>{{TODO}}</dd>
+      </dl>
+    </li>
+    <li>
+      <span>Flight Time</span>
+      <dl>
+        <dd>{{flight.time.depart}} - {{flight.time.arrive}}</dd>
+      </dl>
+    </li>
+    <li>
+      <span>Details</span>
+      <dl>
+        <dt>Flight:</dt>
+        <dd>{{flight.airline | capitalize}}: {{flight.number}}-{{flight.airline.flight}}</dd>
+        <dt>Aircraft:</dt>
+        <dd>{{flight.aircraft}}</dd>
+      </dl>
+    </li> 
+  </ul>
+</div>

@@ -1,9 +1,27 @@
-<<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
+<div class="container">
+  <div class="row">
+    <div class="sidebar">
 
-</body>
-</html>
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="time.date">Date</option>
+        <option value="price">Price</option>
+        <option value="availableseats | number">Price</option>
+        <option value="airline.name">Airline</option>
+      </select>
+
+    </div>
+    <div class="window">
+
+      <ul class="flights">
+        <li ng-repeat="flight in flights | filter:query | orderBy:orderProp" class="thumbnail flight-listing">
+          <a href="#/flights/{{flight.number}}" class="thumb"><img ng-rc="{{fight.imageUrl}}"></a>
+          <a href="#/flights/{{flight.number}}">Flight {{flight.number}} {{flight.origin}} To {{flight.destination}}</a>
+          <p>INFORMATION</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
